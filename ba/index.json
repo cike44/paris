@@ -1,0 +1,82 @@
+flightHandler({
+	"global": {
+		"weight":[
+			4,4,4,4,5,5,5,4,4,2,3,4,3,4,5,5,4,1,1,2
+		],
+		"name":"巴黎安全指数",
+		"unit":"(星区)",
+		"info": "安全5星区：5，6，7，15，16，<br/>安全4星区：1，2，3，4，12，14，8，9<br/>安全3星区：11，13，17<br/>安全2星区：10，20<br/>安全1星区：18，19"
+	},
+	"restaurant": {
+		"weight":[
+			813,810,519,603,967,716,526,1181,1424,1075,1265,733,766,714,1137,761,1176,1005,562,555
+		],
+		"name":"饭店数量",
+		"unit":"(家)",
+		"info": "L'hectare (ha) est une unité de mesure de superficie. Un hectare correspond à 10000 mètres carrés (près de un terrain de football) ;",
+	},
+	"bars": {
+		"weight":[
+			169,157,117,149,165,168,50,189,239,222,439,127,101,87,99,78,137,238,100,108
+		],
+		"name":"酒吧数量",
+		"unit":"(家)",
+		"info": "L'hectare (ha) est une unité de mesure de superficie. Un hectare correspond à 10000 mètres carrés (près de un terrain de football) ; ",
+	},
+	"density": {
+		"weight":[
+			0.9,2.2,3.1,1.7,2.4,2.1,1.4,1,2.8,3.2,4.2,2.3,2.6,2.5,2.8,2.1,3,3.3,2.8,3.3
+		],
+		"name":"人口密度",
+		"unit":"(密度)",
+		"info": "Paris est  le plus densément peuplé en europe<br/>En reference: <br/><br/>Angleterre :<br/>Le borough royal de Kensington et Chelsea (District le plus densément peuplé de londre): 1.7 habitant / 100m2<br/><br/>Espagne<br/>Zona Franca & Montjuïc forest park.  (District le plus densément peuplé de Barcelone):<br/>2.8 Habitant / 100m2<br/><br/>Allemand <br/>Friedrichshain-Kreuzberg (District le plus densément peuplé de berlin): 1.4 habitant / 100m2<br/><br/>États-Unis<br/>Manhattan (District  le plus densément peuplé de tokoyo): 2.7   habitant / 100m2<br/><br/>Chine :<br/>Kwun Tong (District  le plus densément peuplé de hongkong): 5.8   habitant / 100m2<br/>Hongkou   (District  le plus densément peuplé de shanghai): 3.6 habitant / 100m2<br/>XIcheng  (District  le plus densément peuplé de pekin): 2.4 / 100m2<br/><br/>Japon<br/>Toshima   (District  le plus densément peuplé de tokoyo): 2.3   habitant / 100m2<br/>",
+	},
+	"greening": {
+		"weight":[
+				18.9,0.2,2.2,3.1,12.8,12.8,8.2,6.4,0.7,1.3,2.4,3.7,4.3,5.2,7.3,7.1,5.8,3,14.36,5.6
+			],
+		"name":"绿化率",
+		"unit":"(%)",
+		"info": "",
+	},
+	"sports": {
+		"weight":[
+			3,2,4.6,4.4,21.6,12.2,9.2,5.2,6.2,16.8,22.8,35,43.8,43.2,43.8,22.6,30.8,36.4,40.8,34.6
+		],
+		"name":"运动场所",
+		"unit":"",
+		"info": "Moyen de calcul<br/>Piscine: 1 point<br/>TENNIS: 1 point<br/>STADE & centre de sportif : 3.5 point<br/>PINGPONG, Pétanque (jardin square) : 0.2 point<br/>Basket: 1 point<br/>Gymnase: 2 point",
+	},
+	"culture": {
+		"weight":[
+			15.9,8.3,6.2,10.9,16.1,16.9,9,19,24.6,12,8.5,10.2,13,19.1,16.3,15.6,9.6,16.1,15.6,9.9
+		],
+		"name":"文化场所",
+		"unit":"",
+		"info": "Moyen de calcul<br/>BIBLIOTHÈQUES: 1 point<br/>MUSÉES MUNICIPAUX ： 0.5 point<br/>Conservatoires : 1.5 point<br/>Théâtre : 1 point<br/>Cinéma : 0.2 point",
+	},
+	"foreigner": {
+		"weight":[
+			31.4,38.5,37,33.9,28.4,28.6,36,35.1,29.5,41.2,32.8,26.6,35.5,34.8,31.2,36,33,41.8,43.4,36.8
+		],
+		"name":"移民+外国人",
+		"unit":"",
+		"info": "",
+	},
+	"housing": {
+		"weight":[
+			11274,10225,10812,11640,10894,12687,12354,10155,9152,8359,8694,8106,7887,8798,8783,9462,8997,7976,7102,7460
+		],
+		"name":"地价",
+		"unit":"",
+		"info": "La rue Rue de la Marseillaise du 19ieme arrondissment est le quartier le moin chers à pairs. Le prix m2 moyen est environ 4975 euros. L'avenue Montaigne est le quartier le plus chers à pairs. Le prix m2 moyen est environ 21600 euros. et même dit-on, pour quelques pied-à-terre particulièrement chics, à plus de 40 000 € du mètre",
+	},
+	"rent": {
+		"weight":[
+			30,29.2,29.6,29.8,29.2,30.6,30.3,28.5,26.6,25.9,26.4,24.9,25,25.6,25.9,26.9,26.6,25.1,23.2,23.8
+		],
+		"name":"租价",
+		"unit":"",
+		"info": "Si vous chercher un location de un studio, il faudrait plutôt compter le loyer plus haut et ajouter la charge provisionné dans la réalités. Si vous chercher un T2 T3, vous pouvez compter le loyer moyen un peu pres et oublier pas aussi  d’ajouter aussi la charge provisionné.",
+	}
+})
