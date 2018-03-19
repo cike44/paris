@@ -21,16 +21,22 @@ ul li{
 	height: 70px;
 	background: #408ee6;
 }
-
-.header .logo{
-	width: 180px;
-	margin: 18px 0 0 20px ;
+.header .fl{
+	width: 15%;
+	height: 70px;
 }
-.nav{
-	margin: 0;
+.header .logo{
+	width:100%;
+	height:100%;
+}
+.header .nav{
+	width: 85%;
+	height: 70px;
+	/* float: left; */
+	margin: 0 0 0 15%;
 }
 .nav li{
-	width: 100px;
+	width: 8.5%;
 	height: 70px;
 	position: relative;
 	cursor: pointer;
@@ -52,14 +58,19 @@ ul li{
 }
 
 .nav li .tip{
+	width: 100%;
 	position: absolute;
 	left: 0;
 	top: 80px;
 	display: none;
 	white-space: nowrap;
 }
-
-
+#housing{
+	right:0;
+}
+#rent{
+	right:0;
+}
 
 #map{
 	width: 80%;
